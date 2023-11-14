@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📑 Notes Pad</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>NOTE PAD</h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+
+            <h1>rich dad poor dad</h1>
+            <h2>-Robert</h2>
+            <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium aspernatur vel facilis itaque recusandae, tempora molestias, eveniet commodi quisquam cupiditate, magni maiores suscipit nobis deserunt assumenda. Similique nobis placeat nisi cumque non ullam qui itaque perferendis quae voluptas nam possimus facere, neque quos vero corrupti quis molestiae culpa et voluptatibus odio? Ab quae earum maiores perferendis accusantium natus nesciunt non vitae odit aut facilis illum dolor sit hic, quia consectetur quod odio, excepturi voluptatibus, eveniet iusto quasi dolorum corrupti. Quos?</h5>    
+            <button onclick="delete_window(event)">DELETE</button>
+        </div>        
+    </div>
+    <div class="overlay"></div>
+    <div class="popup-window">
+        <h1>Add Notes</h1>
+        <form>
+            <input class="popup-input" type="text" placeholder="Title" id="title-input">
+            <input class="popup-input" type="text" placeholder="Author" id="author-input">
+            <textarea class="popup-text" placeholder="Enter Notes" id="textarea-input"></textarea>
+            <button class="add-button" id="add-button">ADD</button>
+            <button class="cancel-button" id="cancel-button">CANCEL</button>
+        </form>
+
+
+
+
+
+
+    </div>
+
+
+    <button class="plus-button" id="plus-button">+</button>
+    <script src="script.js"></script>
+</body>
+</html>

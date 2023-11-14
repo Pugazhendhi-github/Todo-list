@@ -1,0 +1,162 @@
+*{
+   margin: 0;
+   padding-left: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background:linear-gradient(to right,#86cef1,#6f7474);
+
+}
+
+.navbar{
+    
+    padding: 10px;
+    text-align: center;
+    background:linear-gradient(to left,#88abb9,#0876a5);
+    color: black;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 10%;
+    border-color: 
+}
+
+.container{
+    padding: 15px;
+    background:linear-gradient(to right,#a5d6ee,#6f7474);
+
+}
+
+.book-container{
+    height: 100%;
+    
+    color: black;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 30%;
+    margin: 40px;
+    display: inline-block;
+    vertical-align: top;
+    border-style: solid;
+    background:linear-gradient(to left,#88abb9,#0876a5);
+
+}
+.book-container h2{
+    color: black;
+}
+
+.book-container button{
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom:5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    border-style:solid;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 20%;
+}
+
+.plus-button{
+    background:linear-gradient(to left,#88b0c0,#0876a5);
+    color: black;
+    padding-top: 25px;
+    padding-bottom:25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 100%;
+    font-size: 40px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    border-style: solid;
+}
+
+.overlay{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+
+}
+
+.popup-window{
+    background:linear-gradient(to left,#9c27b0,#94c2e9);
+    color: black;
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    padding: 15px;
+    width: 30%;
+    height: 50%;
+    z-index: 2;
+    display: none;
+}
+.popup-input{
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 2px;
+    width: 90%;
+    margin: 5px;
+    margin-top: 15px;
+    font-size: 15px;
+
+}
+.popup-text{
+    background-color: transparent;
+    padding: 10px;
+    border: solid black 2px;
+    width: 90%;
+    margin: 5px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.add-button{
+    background-color: rgb(13, 28, 29); 
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+    width: 20%;
+    cursor: pointer;
+}
+
+
+.cancel-button{
+   background-color: rgb(13, 28, 29);
+   color: white;
+   padding: 10px;
+   border-radius: 10px;
+   border: none;
+   margin-top: 15px;
+   width: 20%;
+   cursor: pointer;
+}
+
+.popup-input::placeholder{
+    color: black;
+}
+.popup-text::placeholder{
+    color: black;
+}
+
+.popup-input:focus{
+    outline: none;
+}
+.popup-text:focus{
+    outline: none;
+}
+
