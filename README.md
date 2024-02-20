@@ -26,6 +26,7 @@ To get a local copy and running follow these simple steps:
 - To delete a note, click on the trash can icon next to the note.
 
 # Contact
-Your Name - pugazhendhim123@gmail.com
-Project Link: 
+1.Your Name - pugazhendhim123@gmail.com
+
+2.Project Link: 
 https://github.com/Pugazhendhi-github/Todo-list.git
