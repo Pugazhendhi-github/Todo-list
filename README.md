@@ -1,4 +1,4 @@
-###NOTEPAD PROJECT###
+# Notepad Project
 
 This is a simple Notepad project built with HTML, CSS, JavaScript.
 
@@ -13,4 +13,4 @@ This is a simple Notepad project built with HTML, CSS, JavaScript.
 To get a local copy and running follow these simple steps:
 
 1. Clone the repository:
-2. ''''''
+2. '''https://github.com/Pugazhendhi-github/Todo-list.git'''
